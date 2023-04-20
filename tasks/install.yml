@@ -1,5 +1,5 @@
 ---
-- name: Instala servidor Nginx no Debian/Ubuntu
+- name: Instala servidor Nginx no Debian/Ubuntu no curso de Ansible
   when: ansible_os_family == "Debian"
   apt:
     name: nginx
